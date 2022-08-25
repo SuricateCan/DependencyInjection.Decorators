@@ -4,13 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Cleverson Albino do Nascimento</Authors>
     <Company>SuriTI</Company>
-    <Description>This is a helper library, depending on .Net's DI, to register services using decorator pattern with ease.</Description>
+    <Description>This is a helper library to register services using decorator pattern with ease.</Description>
     <PackageProjectUrl>https://github.com/SuricateCan/DependencyInjection.Decorators</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/SuricateCan/DependencyInjection.Decorators</RepositoryUrl>
     <PackageTags>dependency injection;decorator pattern; decorator</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>

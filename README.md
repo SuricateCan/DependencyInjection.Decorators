@@ -1,11 +1,11 @@
-# NetStandard.DependencyInjection.Decorators
+# DependencyInjection.Decorators
 A simple and lightweight way of applying the Decorator Pattern using Asp Net's dependency injection services.
 This lib is built on top of _Microsoft.Extensions.DependencyInjection.Abstractions_ and allows services to be added to the service provider using a [decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern).
 
 ## Installation
 To install this lib, simply install the package from **NuGet** using the command below.
 ```shell
-Install-Package NetStandard.DependencyInjection.Decorators
+Install-Package DependencyInjection.Decorators
 ```
 
 ## How To Use
