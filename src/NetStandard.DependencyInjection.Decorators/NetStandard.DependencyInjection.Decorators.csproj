@@ -2,7 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Cleverson Albino do Nascimento</Authors>
+    <Company>SuriTI</Company>
+    <Description>This is a helper library, depending on .Net's DI, to register services using decorator pattern with ease.</Description>
+    <PackageProjectUrl>https://github.com/SuricateCan/NetStandard.DependencyInjection.Decorators</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/SuricateCan/NetStandard.DependencyInjection.Decorators</RepositoryUrl>
+    <PackageTags>dependency injection;decorator pattern; decorator</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="*" />
