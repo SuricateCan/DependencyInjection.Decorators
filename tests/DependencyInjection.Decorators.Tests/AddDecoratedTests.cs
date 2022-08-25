@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
-using NetStandard.DependencyInjection.Decorators.Tests.TestTypes;
+using DependencyInjection.Decorators.Tests.TestTypes;
 
-namespace NetStandard.DependencyInjection.Decorators.Tests
+namespace DependencyInjection.Decorators.Tests
 {
     public class AddDecoratedTests
     {

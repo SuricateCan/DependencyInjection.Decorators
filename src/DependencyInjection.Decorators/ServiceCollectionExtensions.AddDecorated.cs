@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NetStandard.DependencyInjection.Decorators
+namespace DependencyInjection.Decorators
 {
     public static partial class ServiceCollectionExtensions
     {

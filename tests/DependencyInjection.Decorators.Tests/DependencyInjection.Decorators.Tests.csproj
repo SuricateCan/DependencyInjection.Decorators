@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\NetStandard.DependencyInjection.Decorators\NetStandard.DependencyInjection.Decorators.csproj" />
+    <ProjectReference Include="..\..\src\DependencyInjection.Decorators\DependencyInjection.Decorators.csproj" />
   </ItemGroup>
 
 </Project>

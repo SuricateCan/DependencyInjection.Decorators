@@ -1,4 +1,4 @@
-﻿namespace NetStandard.DependencyInjection.Decorators.Tests.TestTypes
+﻿namespace DependencyInjection.Decorators.Tests.TestTypes
 {
     public interface IServiceToDecorate
     {

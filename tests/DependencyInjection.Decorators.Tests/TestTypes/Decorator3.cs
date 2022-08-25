@@ -1,10 +1,10 @@
-﻿namespace NetStandard.DependencyInjection.Decorators.Tests.TestTypes
+﻿namespace DependencyInjection.Decorators.Tests.TestTypes
 {
-    public class Decorator2 : IServiceToDecorate
+    public class Decorator3 : IServiceToDecorate
     {
         private readonly IServiceToDecorate service;
 
-        public Decorator2(IServiceToDecorate service)
+        public Decorator3(IServiceToDecorate service)
         {
             this.service = service;
         }
@@ -13,7 +13,7 @@
         {
             var result = service.CallToAction();
 
-            return $"{nameof(Decorator2)} > {result}";
+            return $"{nameof(Decorator3)} > {result}";
         }
     }
 }

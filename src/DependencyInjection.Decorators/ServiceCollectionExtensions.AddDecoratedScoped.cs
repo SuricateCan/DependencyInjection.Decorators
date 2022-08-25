@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace NetStandard.DependencyInjection.Decorators
+namespace DependencyInjection.Decorators
 {
     public static partial class ServiceCollectionExtensions
     {
